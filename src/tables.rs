@@ -19,7 +19,6 @@ use super::ScriptExtension;
 pub const UNICODE_VERSION: (u64, u64, u64) = (12, 0, 0);
 
 #[derive(Clone, Copy, PartialEq, Eq, Debug, Hash)]
-#[non_exhaustive]
 #[allow(non_camel_case_types)]
 #[repr(u8)]
 /// A value of the `Script` property

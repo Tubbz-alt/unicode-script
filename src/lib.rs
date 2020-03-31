@@ -113,7 +113,6 @@ impl From<char> for Script {
 }
 
 #[derive(Clone, Copy, PartialEq, Eq, Hash)]
-#[non_exhaustive]
 /// A value for the `Script_Extension` property
 ///
 /// [`ScriptExtension`] is one or more [`Script`]
